@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abacus | Checkout</title>
+    <link
+      rel="icon"
+      href="https://res.cloudinary.com/djpr2twut/image/upload/v1736150806/zlqgc7ibdb4cvgqmy5xf.jpg"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logoContainer">
+        <a href="index.html">
+          <img
+            src="https://res.cloudinary.com/djpr2twut/image/upload/v1736150806/zlqgc7ibdb4cvgqmy5xf.jpg"
+            alt="logo"
+          />
+          <h1>Abacus</h1>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <div class="container">
+          <div class="heading">
+            <h1>Check Out</h1>
+          </div>
+
+          <div>
+            <div>
+              <h4>Payment Details</h4>
+            </div>
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" />
+            <br />
+            <label for="card">Card number</label>
+            <input
+              type="text"
+              minlength="16"
+              maxlength="16"
+              id="card"
+              name="card"
+              placeholder="0000 0000 0000 0000"
+            />
+            <br />
+            <div class="exp-cvc">
+              <div class="expiration">
+                <label for="expiry">Expiration date</label>
+                <input
+                  class="inputCard"
+                  name="expiry"
+                  id="expiry"
+                  type="text"
+                  required
+                  placeholder="00/00"
+                />
+                <br />
+              </div>
+              <div class="security">
+                <label for="cvc">CVC</label>
+                <input
+                  type="text"
+                  minlength="3"
+                  maxlength="4"
+                  id="cvc"
+                  name="cvc"
+                  placeholder="XXX"
+                />
+                <br />
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h4>Delivery Details</h4>
+            </div>
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@example.com"
+            />
+            <br />
+            <label for="card">Address</label>
+            <input
+              type="text"
+              id="Address"
+              name="Address"
+              placeholder="Address"
+            />
+            <br />
+            <div class="exp-cvc">
+              <div class="expiration">
+                <label for="expiry">City</label>
+                <input
+                  class="inputCard"
+                  name="City"
+                  id="expiry"
+                  type="text"
+                  required
+                  placeholder="City"
+                />
+                <br />
+              </div>
+              <div class="security">
+                <label for="Zip">Zip</label>
+                <input type="text" id="cvc" name="Zip" placeholder="Zip" />
+                <br />
+              </div>
+            </div>
+          </div>
+          <div class="btn">
+            <span id="submit">Submit</span>
+          </div>
+        </div>
+      </div>
+      <div class="cart-summary">
+        <h2>Cart Summary</h2>
+        <ul id="cart-items"></ul>
+        <div class="total">
+          <strong>Total:</strong> $<span id="total-price">0.00</span>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Shopping Cart</p>
+    </footer>
+
+    <script src="checkout.js"></script>
+  </body>
+</html>

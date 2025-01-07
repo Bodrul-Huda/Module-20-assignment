@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "description": "High-quality sound and long battery life.",
+    "price": 59.99,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1736155956/u2g0p4yqt5cbhrecvuqh.png"
+  },
+  {
+    "id": 2,
+    "name": "Smartphone",
+    "description": "Latest model with cutting-edge features.",
+    "price": 699.99,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1736155945/tu1apzosdpo9l3rka85s.png"
+  },
+  {
+    "id": 3,
+    "name": "Coffee Maker",
+    "description": "Brew delicious coffee in minutes.",
+    "price": 89.99,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1736155930/daclyjguwk53dyprmbbn.png"
+  },
+  {
+    "id": 4,
+    "name": "Nike Craft",
+    "description": "New style for new generation",
+    "price": 200,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1682416074/r1nl19lrlhb4q0m6qjkc.png"
+  },
+  {
+    "id": 5,
+    "name": "Nike Jordan",
+    "description": "Nike Jordan, Aim your target like Jordan",
+    "price": 500,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1682415987/ety4guo6xtebhy2ioet6.png"
+  },
+  {
+    "id": 6,
+    "name": "Wireless Headphones",
+    "description": "High-quality sound and long battery life.",
+    "price": 59.99,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1736155956/u2g0p4yqt5cbhrecvuqh.png"
+  },
+  {
+    "id": 7,
+    "name": "Smartphone",
+    "description": "Latest model with cutting-edge features.",
+    "price": 699.99,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1736155945/tu1apzosdpo9l3rka85s.png"
+  },
+  {
+    "id": 8,
+    "name": "Coffee Maker",
+    "description": "Brew delicious coffee in minutes.",
+    "price": 89.99,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1736155930/daclyjguwk53dyprmbbn.png"
+  },
+  {
+    "id": 9,
+    "name": "Nike Craft",
+    "description": "New style for new generation",
+    "price": 200,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1682416074/r1nl19lrlhb4q0m6qjkc.png"
+  },
+  {
+    "id": 10,
+    "name": "Nike Jordan",
+    "description": "Nike Jordan, Aim your target like Jordan",
+    "price": 500,
+    "image": "https://res.cloudinary.com/djpr2twut/image/upload/v1682415987/ety4guo6xtebhy2ioet6.png"
+  }
+]
