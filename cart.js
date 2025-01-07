@@ -78,18 +78,5 @@ document.addEventListener("DOMContentLoaded", () => {
     window.location.href = "checkout.html";
   });
 
-  document.getElementById("checkout").addEventListener("click", () => {
-    if (cart.length === 0) {
-      alert("Your cart is empty. Please add items to the cart.");
-      return;
-    }
-
-    alert("Proceeding to checkout...");
-
-    localStorage.removeItem("cart");
-    cart.length = 0;
-    displayCartItems();
-  });
-
   displayCartItems();
 });
