@@ -238,10 +238,10 @@ footer {
 }
 
 .cart-item-details input[type="number"] {
-  width: 150px; 
-  font-size: 1rem; 
-  padding: 1rem; 
-  margin-left: 0.5rem; 
+  width: 150px;
+  font-size: 1rem;
+  padding: 1rem;
+  margin-left: 0.5rem;
 }
 
 .cart-summary {
@@ -464,10 +464,44 @@ span {
 }
 
 .cart-summary .total {
-  margin-top: 10px;
   font-size: 1.2rem;
   font-weight: bold;
   text-align: right;
+}
+
+.exp-cvc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exp-cvc .expiration,
+.exp-cvc .security {
+  width: 48%;
+}
+
+/* Promo Code Section */
+.promo-code-section {
+  margin-top: 20px;
+}
+
+.promo-code-section h4 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.promo-code-section input {
+  width: calc(100% - 80px);
+  display: inline-block;
+}
+
+.promo-code-section button {
+  width: 70px;
+  margin-left: 10px;
+}
+
+#promo-message {
+  margin-top: 10px;
+  font-size: 0.9rem;
 }
 
 /* __________________________ Responsive Styles __________________________ */
